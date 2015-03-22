@@ -72,11 +72,19 @@ namespace MetroFramework
             }
         }
 
-        public static Pen Green
+        public static Pen LightGreen
         {
             get
             {
-                return GetSavePen("Green", MetroColors.Green);
+                return GetSavePen("LightGreen", MetroColors.LightGreen);
+            }
+        }
+
+        public static Pen DarkGreen
+        {
+            get
+            {
+                return GetSavePen("DarkGreen", MetroColors.DarkGreen);
             }
         }
 

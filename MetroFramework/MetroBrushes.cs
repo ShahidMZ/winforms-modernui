@@ -72,11 +72,19 @@ namespace MetroFramework
             }
         }
 
-        public static SolidBrush Green
+        public static SolidBrush LightGreen
         {
             get
             {
-                return GetSaveBrush("Green", MetroColors.Green);
+                return GetSaveBrush("LightGreen", MetroColors.LightGreen);
+            }
+        }
+
+        public static SolidBrush DarkGreen
+        {
+            get
+            {
+                return GetSaveBrush("DarkGreen", MetroColors.DarkGreen);
             }
         }
 

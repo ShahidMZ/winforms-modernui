@@ -55,15 +55,23 @@ namespace MetroFramework
         {
             get
             {
-                return Color.FromArgb(0, 174, 219);
+                return System.Drawing.ColorTranslator.FromHtml("#0099FF");
             }
         }
 
-        public static Color Green
+        public static Color LightGreen
         {
             get
             {
-                return Color.FromArgb(0, 177, 89);
+                return System.Drawing.ColorTranslator.FromHtml("#00FF00");
+            }
+        }
+
+        public static Color DarkGreen
+        {
+            get
+            {
+                return System.Drawing.ColorTranslator.FromHtml("#00FF00");
             }
         }
 
@@ -87,7 +95,7 @@ namespace MetroFramework
         {
             get
             {
-                return Color.FromArgb(243, 119, 53);
+                return System.Drawing.ColorTranslator.FromHtml("#FF9900");
             }
         }
 
@@ -95,7 +103,7 @@ namespace MetroFramework
         {
             get
             {
-                return Color.FromArgb(165, 81, 0);
+                return System.Drawing.ColorTranslator.FromHtml("#663300");
             }
         }
 
@@ -127,7 +135,7 @@ namespace MetroFramework
         {
             get
             {
-                return Color.FromArgb(209, 17, 65);
+                return System.Drawing.ColorTranslator.FromHtml("#E71121");
             }
         }
 
@@ -135,7 +143,7 @@ namespace MetroFramework
         {
             get
             {
-                return Color.FromArgb(255, 196, 37);
+                return System.Drawing.ColorTranslator.FromHtml("#FFFF00");
             }
         }
     }

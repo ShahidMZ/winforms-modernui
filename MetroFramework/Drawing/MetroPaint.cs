@@ -720,8 +720,11 @@ namespace MetroFramework.Drawing
                 case MetroColorStyle.Blue:
                     return MetroColors.Blue;
 
-                case MetroColorStyle.Green:
-                    return MetroColors.Green;
+                case MetroColorStyle.LightGreen:
+                    return MetroColors.LightGreen;
+
+                case MetroColorStyle.DarkGreen:
+                    return MetroColors.DarkGreen;
 
                 case MetroColorStyle.Lime:
                     return MetroColors.Lime;
@@ -771,8 +774,11 @@ namespace MetroFramework.Drawing
                 case MetroColorStyle.Blue:
                     return MetroBrushes.Blue;
 
-                case MetroColorStyle.Green:
-                    return MetroBrushes.Green;
+                case MetroColorStyle.LightGreen:
+                    return MetroBrushes.LightGreen;
+
+                case MetroColorStyle.DarkGreen:
+                    return MetroBrushes.DarkGreen;
 
                 case MetroColorStyle.Lime:
                     return MetroBrushes.Lime;
@@ -822,8 +828,11 @@ namespace MetroFramework.Drawing
                 case MetroColorStyle.Blue:
                     return MetroPens.Blue;
 
-                case MetroColorStyle.Green:
-                    return MetroPens.Green;
+                case MetroColorStyle.LightGreen:
+                    return MetroPens.LightGreen;
+
+                case MetroColorStyle.DarkGreen:
+                    return MetroPens.DarkGreen;
 
                 case MetroColorStyle.Lime:
                     return MetroPens.Lime;
