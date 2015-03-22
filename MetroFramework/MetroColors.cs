@@ -71,7 +71,7 @@ namespace MetroFramework
         {
             get
             {
-                return System.Drawing.ColorTranslator.FromHtml("#00FF00");
+                return System.Drawing.ColorTranslator.FromHtml("#009900");
             }
         }
 
